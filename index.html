@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>hexagon-tiles</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  background-color: black;
+  margin: 86.60px 0;
+  float:left;
+  margin-left:10px
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid black;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid black;
+}
+.linea{width:100%;float:left;margin-top: -80px;}
+.lineb{width:100%;float:left;margin-left: 155px;margin-top: -80px;}
+</style>
+</head>
+
+<body>
+<div class="linea">
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+</div>
+<div class="lineb">
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+</div>
+<div class="linea">
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+</div>
+<div class="lineb">
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+</div>
+<div class="linea">
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+</div>
+<div class="lineb">
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+<div class="hexagon"></div>
+</div>
+</body>
+</html>
